@@ -5,6 +5,7 @@ from .models import Board,Topic,Post
 from django.contrib.auth.models import User
 from .forms import NewTopicForm
 
+
 # Create your tests here.
 class HomeTests(TestCase):
 	def setUp(self):
